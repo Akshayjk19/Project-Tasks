@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.todo{
+    display: grid;
+    place-content: center;
+    background: linear-gradient(to bottom right,rgb(218, 37, 235),rgb(132, 29, 243));
+    height: 100vh;
+    width: 100%;
+}
+
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 1.5rem 1.5rem;
+    border: 0.3rem solid rgba(218, 218, 218, 0.731);
+    border-radius: 2rem;
+    /* height: 300px; */
+    width: 150%;
+}
+
+.todo-container h1{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+    letter-spacing: .3rem;
+}
+
+.todo-input{
+    padding-bottom: 0.4rem;
+    width: 60%;
+}
+.todo-input{
+    display: flex;
+    flex-direction: row;
+}
+.todo-input input{
+    height: 2rem;
+    width: 100%;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    margin-inline: 0.3rem;
+    padding: 0.2rem 0.3rem;
+}
+
+.todo-lists{
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    width: 70%;
+    height: 27px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem;
+    border-radius: 10px;
+}
+
+.icon{
+    padding-inline: 0.2rem;
+    font-size: 20px;
+}
